@@ -1,3 +1,512 @@
+/* clearfix */
+.container:before, .clearfix:before,
+.container:after, .clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.container:after, .clearfix:after {
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 body{
-	background: #ffffff;
+	background:rgb(0,0,0);
+}
+menu{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.black-theme{
+	width: 100%;
+    background-color: rgb(0,0,0);
+    padding: 50px;
+    overflow: hidden;
+}
+.ta-center{
+	text-align: center;
+}
+.ta-left{
+	text-align: left;
+}
+.wrapp-top-line{
+	width: 100%;
+	background-color: rgb(19,19,19);
+    padding: 35px 0;
+}
+.wrapp-top-menu{
+	width: 100%;
+	background-color: rgb(15,56,84);
+    padding: 85px 0;
+}
+.top-line{
+	margin: auto;
+    max-width: 1150px;
+}
+.top-line-menu-item{
+	float: left;
+    margin-right: 50px;
+}
+.top-menu-item{
+	float: left;
+	margin-left: 25px;
+}
+.top-line-menu-item-society{
+	float: left;
+    margin-left: 10px;
+}
+.top-line-menu-href{
+	font-family: "muller_regularregular";
+    font-size: 12pt;
+    color: rgb(134,151,170);
+    text-decoration: none;
+}
+.top-menu-href{
+	font-family: "muller_regularregular";
+    font-size: 14pt;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.top-menu-button{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 10px 50px;
+    font-family: "muller_regularregular";
+    font-size: 14pt;
+	position: relative;
+	border-radius: 7px;
+	border-color: rgb(31,162,204);
+	border-width: 3px;
+	border-style: solid;
+}
+.top-menu-button:hover{
+	color: rgb(31,162,204);
+	border-color: rgb(255,255,255);
+}
+.top-menu-href:hover{
+	color: rgb(31,162,204);
+}
+.wrapp-download-pres{
+	width: 100%;
+	background-color: rgb(31,162,204);
+    padding: 85px 0;
+}
+.download-pres-text-top{
+	font-family: 'mullerthin';
+	color: rgb(255,255,255);
+}
+.download-pres-text-bottom{
+	font-family: "muller_regularregular";
+	color: rgb(255,255,255);
+}
+.download-pres-button{
+	text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 10px 50px;
+    font-family: "muller_regularregular";
+    font-size: 14pt;
+	position: relative;
+	border-radius: 7px;
+	background-color: rgb(15,56,84);
+	border-width: 0;
+	border-style: solid;
+	width: 100px;
+	text-align: center;
+}
+.info-1{
+	width: 100%;
+	background-color: rgb(0,0,0);
+	padding: 45px;
+	text-align: center;
+}
+.info-1-text1{
+	font-family: "mullermedium";
+	font-size: 18pt;
+	color: rgb(31,162,204);
+}
+.info-1-text2{
+	font-family: "mullerthin";
+	font-size: 26pt;
+	color: rgb(31,162,204);
+}
+.info-1-menu-item{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: 15%;
+}
+.info-1-menu-item-right{
+	display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+	text-align: center;
+	margin-right: 0;
+}
+.info-1-item-text{
+	font-family: "muller_regularregular";
+    font-size: 14pt;
+	color: rgb(255,255,255);
+	display: block;
+	width: 220px;
+}
+.info-1-menu-img{
+	height: 85px;
+}
+.info-3{
+	width: 100%;
+	background-color: rgb(0,0,0);
+	padding: 45px;
+	text-align: center;
+}
+.info-3-text1{
+	display: inline;
+	font-family: "mullerthin";
+    font-size: 24pt;
+	color: rgb(186,157,137);
+}
+.info-3-text2{
+	font-family: "mullermedium";
+    font-size: 20pt;
+	color: rgb(186,157,137);
+}
+.info-3-item-text-top{
+	font-family: "mullermedium";
+    font-size: 16pt;
+	color: rgb(31,183,232);
+	display: block;
+}
+
+.info-3-item-text-bottom{
+	font-family: "mullerultralight";
+    font-size: 14pt;
+	color: rgb(255,255,255);
+	display: block;
+	width: 220px;
+}
+.wrapp-info4{
+	max-width: 1250px;
+	margin: auto;
+}
+.info-4{
+	width: 100%;
+    padding: 45px;
+	text-align: center;
+	background-color: rgb(15,56,84);
+}
+.info-4-text1{
+	font-family: "mullerthin";
+    font-size: 16pt;
+	color: rgb(186,157,137);
+}
+.info-4-text2{
+	font-family: "mullermedium";
+    font-size: 24pt;
+	color: rgb(186,157,137);
+}
+.info-4-menu-item{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: inline-block;
+	text-align: center;
+	position: relative;
+	width: 200px;
+    height: 400px;
+}
+.bg-1{
+	background-image: url('../img/info-4/pic1.png');
+}
+.bg-2{
+	background-image: url('../img/info-4/pic2.png');
+}
+.bg-3{
+	background-image: url('../img/info-4/pic3.png');
+}
+.bg-4{
+	background-image: url('../img/info-4/pic4.png');
+}
+.bg-5{
+	background-image: url('../img/info-4/pic5.png');
+}
+.bg-6{
+	background-image: url('../img/info-4/pic6.png');
+}
+.info-4-menu-item:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+  }
+.info-4-menu-text{
+	font-family: "muller_regularregular";
+    font-size: 14pt;
+	color: rgb(255,255,255);
+	display: inline-block;
+	vertical-align: middle;
+	width: 150px;
+	  
+}
+.info-5-text1{
+	font-family: "mullerthin";
+    font-size: 24pt;
+	color: rgb(186,157,137);
+}
+.info-5-text2{
+	font-family: "mullermedium";
+    font-size: 24pt;
+	color: rgb(186,157,137);
+}
+.info-5-text3{
+	padding-top: 45px;
+	display: block;
+	font-family: "muller_regularregular";
+    font-size: 24pt;
+	color: rgb(255,255,255);
+}
+.info-5-img{
+	width: 100%;
+	padding-top: 20px;
+}
+.info-6{
+	width: 100%;
+	background-color: rgb(7,32,50);
+	padding: 50px;
+	text-align: left;
+	overflow: hidden;
+}
+.info-6-text-1{
+	font-family: "mullerthin";
+	font-size: 26pt;
+	color: rgb(31,183,232);
+}
+.info-6-text-2{
+	font-family: "mullermedium";
+	font-size: 26pt;
+	color: rgb(31,183,232);
+}
+.info-6-text-3{
+	font-family: "mullermedium";
+	font-size: 16pt;
+	color: rgb(255,255,255);
+	display: block;
+	text-align: left;
+}
+.info-6-img{
+	width: 150px;
+	height: auto;
+	padding-right: 150px;
+}
+.info-7{
+	width: 100%;
+	background-color: rgb(15,56,84);
+	padding: 50px;
+	text-align: center;
+	overflow: hidden;
+}
+.info-7-text1{
+	font-family: 'mullerthin';
+    font-size: 44pt;
+	color: rgb(186,157,137);
+}
+.info-7-text2{
+	font-family: "mullermedium";
+    font-size: 30pt;
+	color: rgb(186,157,137);
+}
+.info-7-text3{
+	font-family: "mullerultralight";
+    font-size: 22pt;
+	color: rgb(255,255,255);
+	display: block;
+	padding-bottom: 50px;
+}
+.info-7-menu-item{
+	position: relative;
+    width: 50%;
+    height: 122px;
+    margin-bottom: 70px;
+}
+.info-7-menu-item-text{
+	font-family: "muller_regularregular";
+    font-size: 18pt;
+	color: rgb(31,179,227);
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.info-8{
+	width: 100%;
+	background-color: rgb(0,0,0);
+	padding: 50px;
+	text-align: left;
+	overflow: hidden;
+}
+.info-8-text1{
+	font-family: 'mullerthin';
+    font-size: 44pt;
+	color: rgb(31,183,232);
+}
+.info-8-text2{
+	font-family: "mullermedium";
+    font-size: 30pt;
+	color: rgb(31,183,232);
+}
+.info-8-text3{
+	font-family: "mullerultralight";
+    font-size: 22pt;
+	color: rgb(255,255,255);
+	display: block;
+}
+.info-8-img{
+	position: relative;
+	top: -110px;
+	padding-right: 40px;
+}
+.info-9{
+	width: 100%;
+	background-color: rgb(15,56,84);
+	padding: 50px;
+	text-align: center;
+	overflow: hidden;
+}
+.info-9-text1{
+	font-family: "mullermedium";
+    font-size: 30pt;
+	color: rgb(255,255,255);
+	display: block;
+	padding-bottom: 30px;
+}
+.info-9-text2{
+	font-family: "mullerultralight";
+    font-size: 22pt;
+	color: rgb(255,255,255);
+	display: block;
+	padding-bottom: 30px
+}
+.info-9-img{
+	position: relative;
+	width: 100%;
+}
+.info-10-text1{
+	font-family: 'mullerthin';
+    font-size: 44pt;
+	color: rgb(31,183,232);
+}
+.info-10-text2{
+	font-family: "mullermedium";
+    font-size: 30pt;
+	color: rgb(31,183,232);
+	padding-bottom: 30px;
+}
+.info-10-img{
+	position: relative;
+	width: 100%;
+	margin-top: 40px;
+}
+.info-11-text1{
+	font-family: 'mullerthin';
+    font-size: 25pt;
+	color: rgb(31,179,226);
+}
+.info-11-text2{
+	font-family: "mullermedium";
+    font-size: 25pt;
+	color: rgb(31,179,226);
+	padding-bottom: 30px;
+}
+.info-11{
+	width: 100%;
+	background-color: rgb(15,56,84);
+	padding: 50px;
+	text-align: center;
+	overflow: hidden;
+}
+.footer-menu-item1{
+	display: inline-block;
+	position: relative;
+    width: 12%;
+    margin-bottom: 20px;
+    text-align: left;
+}   
+.footer-menu-item2{
+	display: inline-block;
+	position: relative;
+    width: 56%;
+    margin-bottom: 20px;
+    text-align: left;
+}   
+.footer-menu-item3{
+	display: inline-block;
+	position: relative;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: left;
+}   
+.footer-menu-item-society{
+	float: left;
+    margin-left: 20px;
+}  
+.footer-menu-society{
+	padding-top: 10px;
+}
+.footer-subscibe-item{
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+    margin-bottom: 10px;
+	text-align: center;
+	margin-right: 10 px;
+}
+.footer-subscribe-text{
+	font-family: "muller_regularregular";
+    font-size: 18pt;
+	color: rgb(255,255,255);
+	display: inline-block;
+	width: 100px;
+}
+.subscribe-button{
+	text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 15px 40px;
+    font-family: "mullerthin";
+    font-size: 18pt;
+    position: relative;
+    border-radius: 7px;
+    background-color: rgb(84,184,221);
+    border-width: 0;
+    border-style: solid;
+    text-align: center;
+}
+.subscribe-input{
+	width: 300px;
+    padding: 16px;
+    margin: 2px 6px 16px 0;
+    background-color: rgb(19, 29, 40);
+    border: 0;
+    font-size: 18pt;
+	font-family: "mullerthin";
+	border-radius: 7px;
+}
+.footer-links-item{
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+    margin-bottom: 10px;
+	text-align: center;
+	margin-right: 10 px;
+}
+.footer-links-href{
+	font-size: 15pt;
+	font-family: "mullerthin";
+	color: rgb(255,255,255);
+}
+.copyright{
+	text-align: left;
+	color: rgb(255,255,255);
+	font-size: 11pt;
+	font-family: "mullerthin";
 }
