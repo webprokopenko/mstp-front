@@ -24,7 +24,6 @@ menu{
 .black-theme{
 	width: 100%;
     background-color: rgb(0,0,0);
-    padding: 50px;
     overflow: hidden;
 }
 .ta-center{
@@ -33,15 +32,20 @@ menu{
 .ta-left{
 	text-align: left;
 }
+.pt50{
+	padding-top: 50px;
+}
+.pb50{
+	padding-bottom: 50px;
+}
 .wrapp-top-line{
 	width: 100%;
 	background-color: rgb(19,19,19);
-    padding: 35px 0;
 }
 .wrapp-top-menu{
 	width: 100%;
 	background-color: rgb(15,56,84);
-    padding: 85px 0;
+    padding: 45px 0;
 }
 .top-line{
 	margin: auto;
@@ -93,15 +97,17 @@ menu{
 .wrapp-download-pres{
 	width: 100%;
 	background-color: rgb(31,162,204);
-    padding: 85px 0;
+    padding: 55px 0;
 }
 .download-pres-text-top{
 	font-family: 'mullerthin';
 	color: rgb(255,255,255);
+	font-size: 22pt;
 }
 .download-pres-text-bottom{
 	font-family: "muller_regularregular";
 	color: rgb(255,255,255);
+	font-size: 22pt;
 }
 .download-pres-button{
 	text-decoration: none;
@@ -114,13 +120,38 @@ menu{
 	background-color: rgb(15,56,84);
 	border-width: 0;
 	border-style: solid;
-	width: 100px;
+	width: 200px;
 	text-align: center;
+}
+.slide-text-wrapper{
+	width: 300px;
+	position: relative;
+	left: 70%;
+	bottom: 30px;
+}
+.slide-text-1{
+	font-family: "mullerbold";
+	font-size: 58pt;
+	color: rgb(31,162,204);
+}
+.slide-text-2{
+	font-family: "muller_regularregular";
+	font-size: 20pt;
+	color: rgb(255,255,255);
+	margin-bottom: 30px;
+}
+.slide-button{
+	font-family: "muller_regularregular";
+	padding: 20px 50px;
+	font-size: 15pt;
+	color: rgb(255,255,255);
+	border-radius: 7px;
+	background-color: rgb(15,129,165);
+	text-decoration: none;
 }
 .info-1{
 	width: 100%;
 	background-color: rgb(0,0,0);
-	padding: 45px;
 	text-align: center;
 }
 .info-1-text1{
@@ -132,6 +163,7 @@ menu{
 	font-family: "mullerthin";
 	font-size: 26pt;
 	color: rgb(31,162,204);
+	margin-bottom: 50px;
 }
 .info-1-menu-item{
     display: inline-block;
@@ -159,17 +191,16 @@ menu{
 }
 .info-2{
     background-image: url('../img/bg_mstp.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: top;
     width: 100%;
 	background-color: rgb(0,0,0);
-	padding: 45px;
 	text-align: center;
 	overflow: hidden;
 	height: 700px;
 }
 .wrapp-info2-blocks{
-	padding-top: 100px;
+	padding-top: 20px;
 }
 .info-2-text1{
 	font-family: "mullerthin";
@@ -207,25 +238,25 @@ menu{
     left: 28%;
 }
 .info2-block4{
-	bottom: 500px;
+	bottom: 540px;
     position: relative;
     width: 220px;
     left: 45%;
 }
 .info2-block5{
-	bottom: 740px;
+	bottom: 800px;
     position: relative;
     width: 220px;
     left: 58%;
 }
 .info2-block6{
-	bottom: 760px;
+	bottom: 850px;
     position: relative;
     width: 220px;
     left: 74%;
 }
 .info2-block7{
-	bottom: 750px;
+	bottom: 820px;
     position: relative;
     width: 220px;
     left: 79%;
@@ -269,7 +300,7 @@ menu{
 	text-align: center;
 }
 .wrapp-info-3-text{
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 .info-3-text1{
 	display: inline;
@@ -302,7 +333,6 @@ menu{
 }
 .info-4{
 	width: 100%;
-    padding: 45px;
 	text-align: center;
 	background-color: rgb(15,56,84);
 }
@@ -327,21 +357,33 @@ menu{
 }
 .bg-1{
 	background-image: url('../img/info-4/pic1.png');
+	width: 16%;
+	background-size: 100%;
 }
 .bg-2{
 	background-image: url('../img/info-4/pic2.png');
+	background-size: 100%;
+	width: 16%;
 }
 .bg-3{
 	background-image: url('../img/info-4/pic3.png');
+	width: 16%;
+	background-size: 100%;
 }
 .bg-4{
 	background-image: url('../img/info-4/pic4.png');
+	width: 16%;
+	background-size: 100%;
 }
 .bg-5{
 	background-image: url('../img/info-4/pic5.png');
+	width: 16%;
+	background-size: 100%;
 }
 .bg-6{
 	background-image: url('../img/info-4/pic6.png');
+	width: 16%;
+	background-size: 100%;
 }
 .info-4-menu-item:before {
 	content: '';
@@ -355,8 +397,6 @@ menu{
 	color: rgb(255,255,255);
 	display: inline-block;
 	vertical-align: middle;
-	width: 150px;
-	  
 }
 .info-5-text1{
 	font-family: "mullerthin";
@@ -382,9 +422,11 @@ menu{
 .info-6{
 	width: 100%;
 	background-color: rgb(7,32,50);
-	padding: 50px;
 	text-align: left;
 	overflow: hidden;
+}
+.wrapper-info-6-text{
+	padding-top: 30px;
 }
 .info-6-text-1{
 	font-family: "mullerthin";
@@ -397,8 +439,8 @@ menu{
 	color: rgb(31,183,232);
 }
 .info-6-text-3{
-	font-family: "mullermedium";
-	font-size: 16pt;
+	font-family: "mullerlight";
+	font-size: 17pt;
 	color: rgb(255,255,255);
 	display: block;
 	text-align: left;
@@ -406,12 +448,11 @@ menu{
 .info-6-img{
 	width: 150px;
 	height: auto;
-	padding-right: 150px;
+	margin-right: 50px;
 }
 .info-7{
 	width: 100%;
 	background-color: rgb(15,56,84);
-	padding: 50px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -449,7 +490,6 @@ menu{
 .info-8{
 	width: 100%;
 	background-color: rgb(0,0,0);
-	padding: 50px;
 	text-align: left;
 	overflow: hidden;
 }
@@ -465,7 +505,7 @@ menu{
 }
 .info-8-text3{
 	font-family: "mullerultralight";
-    font-size: 22pt;
+    font-size: 18pt;
 	color: rgb(255,255,255);
 	display: block;
 }
@@ -477,7 +517,6 @@ menu{
 .info-9{
 	width: 100%;
 	background-color: rgb(15,56,84);
-	padding: 50px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -529,7 +568,6 @@ menu{
 .info-11{
 	width: 100%;
 	background-color: rgb(15,56,84);
-	padding: 50px;
 	text-align: center;
 	overflow: hidden;
 }
@@ -644,3 +682,6 @@ address{
 	text-decoration: none;
 	font-style: normal;
 }
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0} 

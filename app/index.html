@@ -7,11 +7,12 @@
 	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
-	<div class="wrapp-top-line">
-		<div class="top-line right clearfix">
+	<div class="wrapp-top-line clearfix">
+		<div class="top-line right">
 			<menu class="top-line-menu">
 				<li class="top-line-menu-item">
 					<tel class="top-line-menu-href">
@@ -54,8 +55,8 @@
 			</menu>
 		</div>
 	</div>
-	<div class="wrapp-top-menu">
-		<div class="top-line">
+	<div class="wrapp-top-menu clearfix">
+		<div class="top-line clearfix">
 			<img class="left clearfix" src="./img/icons/logo.png" alt="MSTP">
 			<menu class="right clearfix">
 				<li class="top-menu-item">
@@ -88,11 +89,24 @@
 	</div>
 	<div class="wrapp-slider top-line">
 		<div class="slider">
-			Slider
+			<div class="w3-content w3-display-container" style="max-width:1115px">
+				<img class="mySlides" src="./img/slider/slider-1.png" style="width:100%">
+				<img class="mySlides" src="./img/slider/slider-1.png" style="width:100%">
+				<img class="mySlides" src="./img/slider/slider-1.png" style="width:100%">
+				<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+					<div class="slide-text-wrapper">
+						<div class="slide-text-1">MSTP</div>
+						<div class="slide-text-2">Solves all knows network problems simultaneously</div>
+						<a href="/" class="slide-button">More information</a>
+					</div>
+					<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+					<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="wrapp-download-pres">
-		<div class="top-line">
+		<div class="top-line clearfix">
 			<div class="left">
 				<div class="download-pres-text-top ">2018 Guide to WAN Architecture and Design,</div>
 				<div class="download-pres-text-bottom">Applying SDN and NFV at the WAN Edge</div>
@@ -101,7 +115,7 @@
 		</div>
 	</div>
 	<header class="black-theme ta-center">
-		<div class="top-line">
+		<div class="top-line pt50 pb50">
 			<div class="info-1-text1">CLIENT PROBLEMS SOLVED WITH</div>
 			<div class="info-1-text2">MSTP</div>
 			<menu>
@@ -181,52 +195,52 @@
 		</div>
 	</header>
 	<div class="info-2">
-		<div class="top-line">
+		<div class="top-line pt50">
 			<div class="info-2-text1">MSTP</div>
 			<div class="info-2-text2">BENEFITS AND FUNCTIONALITY</div>
 			<div class="wrapp-info2-blocks">
-			<div class="info2-block1">
-				<div class="info2-block-text1">TUNNELING</div>
-				<div class="info2-block-text2">L2/L3 Tunneling through different WAN networks/tunneling through any IP network</div>
-				<img class="info2-block1-img" src="./img/arrows/ar1.png" alt="L2/L3 Tunneling through different WAN networks/tunneling through any IP network">
+				<div class="info2-block1">
+					<div class="info2-block-text1">TUNNELING</div>
+					<div class="info2-block-text2">L2/L3 Tunneling through different WAN networks/tunneling through any IP network</div>
+					<img class="info2-block1-img" src="./img/arrows/ar1.png" alt="L2/L3 Tunneling through different WAN networks/tunneling through any IP network">
+				</div>
+				<div class="info2-block2">
+					<div class="info2-block-text1">BANDWIDTH SUMMATION</div>
+					<div class="info2-block-text2">Summation of subchannels’ bandwidth in one general channel bandwidth </div>
+					<img class="info2-block2-img" src="./img/arrows/ar2.png" alt="Summation of subchannels’ bandwidth in one general channel bandwidth ">
+				</div>
+				<div class="info2-block3">
+					<img class="info2-block3-img" src="./img/arrows/ar3.png" alt="Ensure the consistency of data packets regardless of the transport network">
+					<div class="info2-block-text1">GUARANTEES</div>
+					<div class="info2-block-text2">Ensure the consistency of data packets regardless of the transport network </div>
+				</div>
+				<div class="info2-block4">
+					<img class="info2-block4-img" src="./img/arrows/ar4.png" alt="Reservation of the data channels">
+					<div class="info2-block-text1">RESERVATION</div>
+					<div class="info2-block-text2">Reservation of the data channels</div>
+				</div>
+				<div class="info2-block5">
+					<div class="info2-block-text1">SUPPORT</div>
+					<div class="info2-block-text2">Supporting of all data types: digital data, video/voice data, VoIP etc.</div>
+					<img class="info2-block5-img" src="./img/arrows/ar5.png" alt="Supporting of all data types: digital data,video/voice data,VoIP etc.">
+				</div>
+				<div class="info2-block6">
+					<div class="info2-block-text1">ISOLATION</div>
+					<div class="info2-block-text2">Full VLAN isolation</div>
+					<img class="info2-block6-img" src="./img/arrows/ar6.png" alt="Full VLAN isolation">
+				</div>
+				<div class="info2-block7">
+					<div class="info2-block-text1">AUTOMATION</div>
+					<div class="info2-block-text2">Full automation of remote network installation and management</div>
+				</div>
 			</div>
-			<div class="info2-block2">
-				<div class="info2-block-text1">BANDWIDTH SUMMATION</div>
-				<div class="info2-block-text2">Summation of subchannels’ bandwidth in one general channel bandwidth </div>
-				<img class="info2-block2-img" src="./img/arrows/ar2.png" alt="Summation of subchannels’ bandwidth in one general channel bandwidth ">
-			</div>
-			<div class="info2-block3">
-				<img class="info2-block3-img" src="./img/arrows/ar3.png" alt="Ensure the consistency of data packets regardless of the transport network">
-				<div class="info2-block-text1">GUARANTEES</div>
-				<div class="info2-block-text2">Ensure the consistency of data packets regardless of the transport network </div>
-			</div>
-			<div class="info2-block4">
-				<img class="info2-block4-img" src="./img/arrows/ar4.png" alt="Reservation of the data channels">
-				<div class="info2-block-text1">RESERVATION</div>
-				<div class="info2-block-text2">Reservation of the data channels</div>
-			</div>
-			<div class="info2-block5">
-				<div class="info2-block-text1">SUPPORT</div>
-				<div class="info2-block-text2">Supporting of all data types: digital data, video/voice data, VoIP etc.</div>
-				<img class="info2-block5-img" src="./img/arrows/ar5.png" alt="Supporting of all data types: digital data,video/voice data,VoIP etc.">
-			</div>
-			<div class="info2-block6">
-				<div class="info2-block-text1">ISOLATION</div>
-				<div class="info2-block-text2">Full VLAN isolation</div>
-				<img class="info2-block6-img" src="./img/arrows/ar6.png" alt="Full VLAN isolation">
-			</div>
-			<div class="info2-block7">
-				<div class="info2-block-text1">AUTOMATION</div>
-				<div class="info2-block-text2">Full automation of remote network installation and management</div>
-			</div>
-		</div>
 		</div>
 	</div>
 	<div class="black-theme ta-center">
-		<div class="top-line">
+		<div class="top-line pt50">
 			<div class="wrapp-info-3-text">
-					<div class="info-3-text1">MSTP</div>
-					<span class="info-3-text2">UNIQUE POINTS</span>
+				<div class="info-3-text1">MSTP</div>
+				<span class="info-3-text2">UNIQUE POINTS</span>
 			</div>
 			<menu>
 				<li class="info-1-menu-item">
@@ -333,7 +347,7 @@
 		</div>
 	</div>
 	<div class="info-4">
-		<div class="wrapp-info4">
+		<div class="wrapp-info4 pt50 pb50">
 			<span class="info-4-text1">CORE</span>
 			<span class="info-4-text2">MSTP</span>
 			<span class="info-4-text1">COMPONENTS</span>
@@ -377,7 +391,7 @@
 			</menu>
 		</div>
 	</div>
-	<div class="black-theme ta-center">
+	<div class="black-theme ta-center pt50 pb50">
 		<div class="top-line">
 			<span class="info-5-text1">
 				MONITORING
@@ -393,20 +407,22 @@
 			<img src="./img/block5-2.png" class="info-5-img" alt="full MSTP control with logging and status control">
 		</div>
 	</div>
-	<div class="info-6">
+	<div class="info-6 pb50">
 		<div class="top-line">
 			<img class="left info-6-img" src="./img/client_module.png" alt="Client MSTP module based on widely used vendor neutral">
-			<span class="info-6-text-1">CLIENT</span>
-			<span class="info-6-text-2">MODULE</span>
-			<span class="info-6-text-3">
-				Client MSTP module based on widely used vendor neutral
-				<br> firmware. All MSTP component fully integrated into firmware –
-				<br> configuration files, netifd, network drivers, web interface etc.
-			</span>
+			<div class="wrapper-info-6-text">
+				<span class="info-6-text-1">CLIENT</span>
+				<span class="info-6-text-2">MODULE</span>
+				<span class="info-6-text-3">
+					Client MSTP module based on widely used vendor neutral
+					<br> firmware. All MSTP component fully integrated into firmware –
+					<br> configuration files, netifd, network drivers, web interface etc.
+				</span>
+			</div>
 		</div>
 	</div>
 	<div class="info-7">
-		<div class="top-line">
+		<div class="top-line pt50 pb50">
 			<span class="info-7-text1">B</span>
 			<span class="info-7-text2">TEST</span>
 			<span class="info-7-text3">
@@ -438,7 +454,7 @@
 	<div class="black-theme">
 		<div class="top-line">
 			<img class="left info-8-img" src="./img/arrows.png" alt="">
-			<div>
+			<div class="pt50 pb50">
 				<span class="info-8-text1">A</span>
 				<span class="info-8-text2">LOOP</span>
 				<span class="info-8-text3">
@@ -451,27 +467,27 @@
 		</div>
 	</div>
 	<div class="info-9">
-		<div class="top-line">
+		<div class="top-line pb50 pt50">
 			<span class="info-9-text1">COMPONENTS</span>
 			<span class="info-9-text2">List of possible MSTP components in general implementation</span>
 			<img class="info-9-img" src="./img/internet.png" alt="List of possible MSTP components in general implementation">
 		</div>
 	</div>
-	<div class="black-theme ta-center">
+	<div class="black-theme ta-center pb50 pt50">
 		<div class="top-line">
 			<span class="info-10-text1">PRINCIPAL</span>
 			<span class="info-10-text2">SCHEME</span>
 			<img class="info-10-img" src="./img/principal_scheme.png" alt="MSTP Principal Scheme">
 		</div>
 	</div>
-	<div class="info-11 ta-center">
+	<div class="info-11 ta-center pb50 pt50">
 		<div class="top-line">
 			<span class="info-11-text1">NORMAL LOGIC SCHEME</span>
 			<span class="info-11-text2">AND WORK IN CASE OF CONNECTION BREAKS (ACCIDENTS) </span>
 			<img class="info-10-img" src="./img/logic_scheme.png" alt="MSTP Logic Scheme">
 		</div>
 	</div>
-	<footer class="black-theme">
+	<footer class="black-theme pb50 pt50">
 		<div class="top-line">
 			<menu class="clearfix">
 				<li class="footer-menu-item1 left">
