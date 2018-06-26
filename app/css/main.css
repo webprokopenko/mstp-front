@@ -157,11 +157,119 @@ menu{
 .info-1-menu-img{
 	height: 85px;
 }
+.info-2{
+    background-image: url('../img/bg_mstp.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+	background-color: rgb(0,0,0);
+	padding: 45px;
+	text-align: center;
+	overflow: hidden;
+	height: 700px;
+}
+.wrapp-info2-blocks{
+	padding-top: 100px;
+}
+.info-2-text1{
+	font-family: "mullerthin";
+	font-size: 26pt;
+	color: rgb(255,255,255);
+}
+.info-2-text2{
+	font-family: "mullermedium";
+	font-size: 18pt;
+	color: rgb(255,255,255);
+}
+.info2-block-text1{
+	font-family: "mullerbold";
+	font-size: 17pt;
+	color: rgb(31,162,204);
+}
+.info2-block-text2{
+	font-family: "mullerultralight";
+	font-size: 15pt;
+	color: rgb(255,255,255);
+}
+.info2-block1{
+	position: relative;
+	width: 220px;
+}
+.info2-block2{
+	position: relative;
+	width: 220px;
+	left: 7%;
+}
+.info2-block3{
+	bottom: 180px;
+    position: relative;
+    width: 220px;
+    left: 28%;
+}
+.info2-block4{
+	bottom: 500px;
+    position: relative;
+    width: 220px;
+    left: 45%;
+}
+.info2-block5{
+	bottom: 740px;
+    position: relative;
+    width: 220px;
+    left: 58%;
+}
+.info2-block6{
+	bottom: 760px;
+    position: relative;
+    width: 220px;
+    left: 74%;
+}
+.info2-block7{
+	bottom: 750px;
+    position: relative;
+    width: 220px;
+    left: 79%;
+}
+.info2-block1-img{
+	width: 30px;
+	position: relative;
+}
+.info2-block2-img{
+	width: 100px;
+	position: relative;
+	left: 90px;
+}
+.info2-block3-img{
+	width: 40px;
+	position: relative;
+	left: 90px;
+}
+.info2-block4-img{
+	width: 60px;
+	position: relative;
+	left: -10px;
+}
+.info2-block5-img{
+	bottom: 60px;
+	width: 50px;
+	position: relative;
+	left: 140px;
+}
+.info2-block6-img{
+	bottom: 60px;
+	width: 20px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
 .info-3{
 	width: 100%;
 	background-color: rgb(0,0,0);
 	padding: 45px;
 	text-align: center;
+}
+.wrapp-info-3-text{
+	margin-bottom: 100px;
 }
 .info-3-text1{
 	display: inline;
@@ -428,21 +536,21 @@ menu{
 .footer-menu-item1{
 	display: inline-block;
 	position: relative;
-    width: 12%;
-    margin-bottom: 20px;
+    width: 13%;
+    margin-right: 20px;
     text-align: left;
 }   
 .footer-menu-item2{
 	display: inline-block;
 	position: relative;
-    width: 56%;
+    width: 63%;
     margin-bottom: 20px;
     text-align: left;
 }   
 .footer-menu-item3{
 	display: inline-block;
 	position: relative;
-    width: 30%;
+    width: 20%;
     margin-bottom: 20px;
     text-align: left;
 }   
@@ -462,16 +570,19 @@ menu{
 	margin-right: 10 px;
 }
 .footer-subscribe-text{
-	font-family: "muller_regularregular";
-    font-size: 18pt;
+	font-size: 15pt;
+	font-family: "mullerthin";
 	color: rgb(255,255,255);
 	display: inline-block;
-	width: 100px;
+	width: 110px; 
+	padding-right: 20px;
+	text-align: left;
 }
 .subscribe-button{
+	vertical-align: top;
 	text-decoration: none;
     color: rgb(255,255,255);
-    padding: 15px 40px;
+    padding: 16px 40px;
     font-family: "mullerthin";
     font-size: 18pt;
     position: relative;
@@ -481,7 +592,12 @@ menu{
     border-style: solid;
     text-align: center;
 }
+.subscribe-wrapper{
+	float: right;
+    margin-top: 18px;
+}
 .subscribe-input{
+	vertical-align: top;
 	width: 300px;
     padding: 16px;
     margin: 2px 6px 16px 0;
@@ -495,7 +611,7 @@ menu{
 	display: inline-block;
 	list-style: none;
 	vertical-align: top;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
 	text-align: center;
 	margin-right: 10 px;
 }
@@ -509,4 +625,22 @@ menu{
 	color: rgb(255,255,255);
 	font-size: 11pt;
 	font-family: "mullerthin";
+}
+.footer-subscribe-text1{
+	font-size: 15pt;
+	font-family: "mullerthin";
+	color: rgb(255,255,255);
+}
+.footer-subscribe-text2{
+	font-size: 15pt;
+	font-family: "mullerthin";
+	color: rgb(84,184,221);
+	text-decoration: none;
+}
+.footer-wrapper-contact{
+	text-align: left;
+}
+address{
+	text-decoration: none;
+	font-style: normal;
 }
