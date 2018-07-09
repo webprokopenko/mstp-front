@@ -13,6 +13,9 @@
 .right{
 	float: right;
 }
+.hidden{
+	display: none;
+}
 body{
 	background:rgb(0,0,0);
 }
@@ -45,7 +48,7 @@ menu{
 .wrapp-top-menu{
 	width: 100%;
 	background-color: rgb(15,56,84);
-    padding: 45px 0;
+    padding: 40px 0;
 }
 .top-line{
 	margin: auto;
@@ -58,6 +61,7 @@ menu{
 .top-menu-item{
 	float: left;
 	margin-left: 25px;
+	margin-top: 10px;
 }
 .top-line-menu-item-society{
 	float: left;
@@ -97,7 +101,7 @@ menu{
 .wrapp-download-pres{
 	width: 100%;
 	background-color: rgb(31,162,204);
-    padding: 55px 0;
+    padding: 15px 0;
 }
 .download-pres-text-top{
 	font-family: 'mullerthin';
@@ -110,6 +114,7 @@ menu{
 	font-size: 22pt;
 }
 .download-pres-button{
+	margin-top: 15px;
 	text-decoration: none;
     color: rgb(255,255,255);
     padding: 10px 50px;
@@ -117,11 +122,10 @@ menu{
     font-size: 14pt;
 	position: relative;
 	border-radius: 7px;
-	background-color: rgb(15,56,84);
-	border-width: 0;
+	border-color: rgb(15,56,84);
+	border-width: 3px;
 	border-style: solid;
-	width: 200px;
-	text-align: center;
+	background-color: rgb(15,56,84)
 }
 .slide-text-wrapper{
 	width: 300px;
@@ -130,6 +134,7 @@ menu{
 	bottom: 30px;
 }
 .slide-text-1{
+	display: none;
 	font-family: "mullerbold";
 	font-size: 58pt;
 	color: rgb(31,162,204);
@@ -413,7 +418,7 @@ menu{
 	display: block;
 	font-family: "muller_regularregular";
     font-size: 24pt;
-	color: rgb(255,255,255);
+	color: rgb(186,157,137);
 }
 .info-5-img{
 	width: 100%;
