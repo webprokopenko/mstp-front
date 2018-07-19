@@ -48,7 +48,8 @@ menu{
 .wrapp-top-menu{
 	width: 100%;
 	background-color: rgb(15,56,84);
-    padding: 40px 0;
+	padding: 15px 0;
+	z-index: 1;
 }
 .top-line{
 	margin: auto;
@@ -82,7 +83,7 @@ menu{
 .top-menu-button{
     text-decoration: none;
     color: rgb(255,255,255);
-    padding: 10px 50px;
+    padding: 10px 10px;
     font-family: "muller_regularregular";
     font-size: 14pt;
 	position: relative;
@@ -106,20 +107,20 @@ menu{
 .download-pres-text-top{
 	font-family: 'mullerthin';
 	color: rgb(255,255,255);
-	font-size: 22pt;
+	font-size: 17pt;
 }
 .download-pres-text-bottom{
 	font-family: "muller_regularregular";
 	color: rgb(255,255,255);
-	font-size: 22pt;
+	font-size: 17pt;
 }
 .download-pres-button{
 	margin-top: 15px;
 	text-decoration: none;
     color: rgb(255,255,255);
-    padding: 10px 50px;
+    padding: 10px 10px;
     font-family: "muller_regularregular";
-    font-size: 14pt;
+    font-size: 12pt;
 	position: relative;
 	border-radius: 7px;
 	border-color: rgb(15,56,84);
@@ -147,8 +148,8 @@ menu{
 }
 .slide-button{
 	font-family: "muller_regularregular";
-	padding: 20px 50px;
-	font-size: 15pt;
+	padding: 15px 10px;
+	font-size: 12pt;
 	color: rgb(255,255,255);
 	border-radius: 7px;
 	background-color: rgb(15,129,165);
@@ -205,7 +206,7 @@ menu{
 	height: 700px;
 }
 .wrapp-info2-blocks{
-	padding-top: 20px;
+	padding-top: 50px;
 }
 .info-2-text1{
 	font-family: "mullerthin";
@@ -249,7 +250,7 @@ menu{
     left: 45%;
 }
 .info2-block5{
-	bottom: 800px;
+	bottom: 830px;
     position: relative;
     width: 220px;
     left: 58%;
@@ -435,12 +436,12 @@ menu{
 }
 .info-6-text-1{
 	font-family: "mullerthin";
-	font-size: 26pt;
+	font-size: 44pt;
 	color: rgb(31,183,232);
 }
 .info-6-text-2{
 	font-family: "mullermedium";
-	font-size: 26pt;
+	font-size: 30pt;
 	color: rgb(31,183,232);
 }
 .info-6-text-3{
@@ -690,3 +691,11 @@ address{
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0} 
+.bottom_menu{
+	display: none;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
